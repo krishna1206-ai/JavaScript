@@ -12,5 +12,4 @@ console.log(a)
 
 //3.Const (Declare only once)
 const pi=3.14;
-
 console.log(pi);

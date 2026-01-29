@@ -13,7 +13,7 @@
 // console.log("name ",name);
 
 // let isTrue=true;
-// let isFalse=false;
+// let isFalse=false; 
 // console.log("boolean ",isFalse);
 
 // let a;
@@ -121,8 +121,8 @@
 // console.log(typeof obj)
 
 //comparision operator
-let value=10;
-let num="10";
+let value = 10;
+let num = "10";
 console.log("value ==num:", value == num);
-console.log("value === num",value === num);
-console.log("value != num",value != num);
+console.log("value === num", value === num);
+console.log("value != num", value != num);
