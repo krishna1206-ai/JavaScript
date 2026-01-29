@@ -70,16 +70,38 @@
 // console.log(arr)
 
 //Array iteraction method
-console.log("Array iteraction method: ")//all are give new array
-let number=[1,2,3,4,5]
-console.log("Map: ",number.map(num=>num*2));//loop
-console.log("filter: ",number.filter(num=>num>2))//condition with loop
-console.log("forEach: ");
-number.forEach(num=>console.log(num))
-let num=[3,5,2,4,1]
+// console.log("Array iteraction method: ")//all are give new array
+// let number=[1,2,3,4,5]
+// console.log("Map: ",number.map(num=>num*2));//loop
+// console.log("filter: ",number.filter(num=>num>2))//condition with loop
+// console.log("forEach: ");
+// number.forEach(num=>console.log(num))
+// let num=[3,5,2,4,1]
 // console.log("Sort: ",num.sort())
 // console.log("Reverce: ",num.reverse())
-let nestedArray=[1,2,[3,4],[5,6]]
-console.log("default nested array: ",nestedArray);
-let flatArray=nestedArray.flat()//structure flat array
-console.log("FlatArray: ",flatArray)
+
+// let nestedArray=[1,2,[3,4],[5,6]]
+// console.log("default nested array: ",nestedArray);
+// let flatArray=nestedArray.flat()//structure flat array
+// console.log("FlatArray: ",flatArray)
+
+//array destructuring
+// let array=[1,2,3,4,5]
+// const [first,secound,third]=array
+// console.log(first)
+// console.log(secound)
+// console.log(third)
+
+
+//skip value
+let array1=[1,2,3,4]
+// const[first, , third]=array1
+// console.log(first)
+// console.log(third)
+
+//rest of operator //spread
+const num1=[1,2,3,4,5]
+const [first,secound,...rest]=num1
+console.log(first)
+console.log(secound)
+console.log(rest)
